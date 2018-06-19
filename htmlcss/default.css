@@ -1,0 +1,58 @@
+/* Style of body*/
+#one {
+	background: black ;
+
+	color: red;
+	height: 200px;
+    width: 50%;
+    text-decoration: overline;
+    direction: rtl;	
+    text-shadow: 3px 2px blue;
+
+}
+#two {
+	border-style: ridge;
+	border-width: 10px;
+	border-color: red;
+	background-color : cyan; 
+	height: 300px;
+	margin-top: 50px;
+	padding-top: 50px;
+	 outline: 1px solid red;
+    outline-offset: 15px;
+    letter-spacing: 3px;
+    font-family: "Monotype Corsiva", "Arial black", serif;
+    font-size:5vw ;
+    font-weight: bold;
+
+}
+#three
+{
+
+}
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+img {
+	opacity:0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
