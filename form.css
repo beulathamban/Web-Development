@@ -55,3 +55,7 @@ form{
 	margin: 50px 100px 100px 100px;
 
 }
+figure{
+	border:solid gray;
+	padding: 3px;
+}
